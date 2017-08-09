@@ -2,8 +2,14 @@
 <html>
   <head>
     <title>LHDM.github.io</title>
+    <script src='/js/main.js'></script>
   </head>
   <body>
-    <p>Hello World</p>
+    <form>
+      Linear Feet: <br>
+      <input type='text' oninput="toMetersSquared(this)" id="linFeet"> <br>
+      Meters squared: <br>
+      <input type='text' oninput="toLinearFeet(this)" id="mSquared"> <br>
+    </form>
   </body>
 </html>
